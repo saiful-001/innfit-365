@@ -267,16 +267,53 @@
     });
     
     /*==================================================================
-    [ Show modal1 ]*/
-    $('.js-show-modal1').on('click',function(e){
+    [   js-show-modal1-for-6-poket-blue-cargo]*/
+
+    $('.js-show-modal1-for-6-poket-blue-cargo').on('click',function(e){
         e.preventDefault();
-        $('.js-modal1').addClass('show-modal1');
+        $('.js-modal1-for-6-poket-blue-cargo').addClass('show-modal1');
     });
 
-    $('.js-hide-modal1').on('click',function(){
-        $('.js-modal1').removeClass('show-modal1');
+    $('.js-hide-modal1-for-6-poket-blue-cargo').on('click',function(){
+        $('.js-modal1-for-6-poket-blue-cargo').removeClass('show-modal1');
     });
 
+    /*==================================================================
+    [   js-show-modal1-for-6-poket-ash-cargo]*/
 
+    $('.js-show-modal1-for-6-poket-ash-cargo').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal1-for-6-poket-ash-cargo').addClass('show-modal1');
+    });
 
+    $('.js-hide-modal1-for-6-poket-ash-cargo').on('click',function(){
+        $('.js-modal1-for-6-poket-ash-cargo').removeClass('show-modal1');
+    });
+
+    /*==================================================================
+    [   js-show-modal1-for-twill-biscuit]*/
+
+    $('.js-show-modal1-for-twill-biscuit').on('click',function(e){
+
+        e.preventDefault();
+        $('.js-modal1-for-twill-biscuit').addClass('show-modal1');
+    });
+
+    $('.js-hide-modal1-for-twill-biscuit').on('click',function(){
+        $('.js-modal1-for-twill-biscuit').removeClass('show-modal1');
+    });
+
+    /*==================================================================
+    [   js-show-modal1-for-twill-ash]*/
+
+    $('.js-show-modal1-for-twill-ash').on('click',function(e){
+
+        e.preventDefault();
+        $('.js-modal1-for-twill-ash').addClass('show-modal1');
+    });
+
+    $('.js-hide-modal1-for-twill-ash').on('click',function(){
+        $('.js-modal1-for-twill-ash').removeClass('show-modal1');
+    });
+    
 })(jQuery);
