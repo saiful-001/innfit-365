@@ -39,6 +39,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
+/* Limit gallery height and add vertical scroll if images exceed */
+
+
+/* ------------------------------------------------------------------------------- custom for me ------------------- */
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
